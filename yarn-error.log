@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\ext.erisvaldofsj\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js run test -- --watch
+  C:\Program Files\nodejs\node.exe C:\Users\ext.erisvaldofsj\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js run test
 
 PATH: 
   C:\Users\ext.erisvaldofsj\Documents\bin;C:\Users\ext.erisvaldofsj\Documents\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\ext.erisvaldofsj\Documents\vendor\conemu-maximus5;C:\Users\ext.erisvaldofsj\Documents\vendor\conemu-maximus5\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio\OEM\AudioCore\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Users\ext.erisvaldofsj\AppData\Local\atom\bin;C:\Users\ext.erisvaldofsj\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Heroku\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\Users\ext.erisvaldofsj\Documents\
@@ -42,6 +42,7 @@ npm manifest:
       "moment": "2.18.1",
       "node-sass": "4.5.3",
       "normalize.css": "7.0.0",
+      "numeral": "2.0.6",
       "react": "15.6.1",
       "react-addons-shallow-compare": "15.6.0",
       "react-dates": "12.3.0",
@@ -3819,6 +3820,10 @@ Lockfile:
     version "1.0.1"
     resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   
+  numeral@2.0.6:
+    version "2.0.6"
+    resolved "https://registry.yarnpkg.com/numeral/-/numeral-2.0.6.tgz#4ad080936d443c2561aed9f2197efffe25f4e506"
+  
   "nwmatcher@>= 1.3.9 < 2.0.0":
     version "1.4.1"
     resolved "https://registry.yarnpkg.com/nwmatcher/-/nwmatcher-1.4.1.tgz#7ae9b07b0ea804db7e25f05cb5fe4097d4e4949f"
@@ -5741,7 +5746,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: C:\windows\system32\cmd.exe
-  Arguments: /d /s /c jest --config=jest.config.json --watch
+  Arguments: /d /s /c jest --config=jest.config.json
   Directory: C:\Users\ext.erisvaldofsj\Documents\projetos\Expensify-App
   Output:
   
