@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\ext.erisvaldofsj\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js run dev-server
+  C:\Program Files\nodejs\node.exe C:\Users\ext.erisvaldofsj\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js test -- --watch
 
 PATH: 
   C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio\OEM\AudioCore\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Users\ext.erisvaldofsj\AppData\Local\atom\bin;C:\Users\ext.erisvaldofsj\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Heroku\bin
@@ -5893,7 +5893,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: C:\windows\system32\cmd.exe
-  Arguments: /d /s /c webpack-dev-server
+  Arguments: /d /s /c corss-env NODE_ENV=test jest --config=jest.config.json --watch
   Directory: C:\Users\ext.erisvaldofsj\Documents\projetos\Expensify-App
   Output:
   
